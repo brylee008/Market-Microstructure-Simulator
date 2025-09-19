@@ -28,3 +28,12 @@ which:
 - implementation shrotfall vs arrival
 - a per tick fill log + a quick chart
 
+**Deliverables****(initial scope):**: 
+1. Data ingestion - load tick or 1-sec bars. Columns: ts, price, size, side, bid, ask
+2. Volume curve  - compute baseline intraday profile, allow smoothing, build a target schedule (front-loaded, back-loaded, or neutral)
+3. VWAP scheduler - take a parent oder (eg, buying 100k shares) and allocate into time buckets proportionally to the evolving volume curve; apply participation caps and min child siezx.
+4. Execution simulator - generate fills using simple microstructure assumptions:
+     - baseline fill price = mid +/- half-spread
+5. Benchmarks and metrics - vwap VS achieved price (bps), implementation shortfall vs arrival, realized spread, fill ratio, participation profile, and risk drift.
+6. Experimental harness - run scenarios across rebalance days and compare schedules (netural vs front-load vs back-load vs adaptive POV)
+7. Outputs - plots and tables per run; summary markdown per experiment,. 
