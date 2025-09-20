@@ -7,11 +7,13 @@ class Tick:
     px: float # trade price
     qty: float #trade size
 
-class RollingExec:
-    def __init__(self, Q-total: float, arrival_px: float):
-        self.Q_total = float(Q_total) # the child order size you want to buy
-        self.arrival_px = float(arrival_px) # benchmark at decision time (usually the mid)
-        self.filled_qty = 0.0 # how much you've bought so far
-        self.notional = 0.0 #dollars paid so far = sum(price * qty)
+def gen_synthetic_tape(
+    n_seconds: int = 3600, # how long I want the fake market day (3600s = 1 hour) 
+    px0: float = 100, # starting price of the stock
+    vol_mean: float = 2000.0, # average number of shares/contracts traded per second
+    drift_bps_per_hr: float = 0.5, # directional drift in price, in basis points per hour
+    vol_of_vol: float = 0.5, # randomness of volume (how spiky it is)
+    seed: Optional[int] = None # random seed for reproducibility
+) -> Tape
 
 
