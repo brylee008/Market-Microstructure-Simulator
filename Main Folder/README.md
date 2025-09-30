@@ -19,7 +19,7 @@ So our execution engine would create small buy orders for this, given that it's 
 
 
 
-- we're trying to create: 
+- i'm aiming to create: 
 A VWAP - vwap(volume-weighted-average-price) excecution scaffold: 
 which: 
 - intakes ticker price data (intraday tape [price + volume per second])
