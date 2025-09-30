@@ -4,7 +4,7 @@ link 1: https://www.investopedia.com/index-rebalancing-7972596#:~:text=Market%20
 link 2: https://www.tastylive.com/news-insights/what-happens-when-stock-added-sp500#:~:text=The%20%E2%80%9Cindex%20effect%E2%80%9D%20refers%20to,demand%20often%20drives%20prices%20higher.
 link 3: https://www.nasdaq.com/articles/what-happens-to-stocks-added-to-the-nasdaq-100-2021-03-18#:~:text=There%20is%20a%20wealth%20of,longest%2Dterm%20holders%20of%20stocks.
 
-MONKEY BRAIN TERMS: 
+MONKEY BRAIN TERMS (TO DELETE LATER): 
 Example: 
 S&P Index 500: 
 
