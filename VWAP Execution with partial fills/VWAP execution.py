@@ -93,3 +93,4 @@ def exec_pro_rate(tape, q_total=100, fraction=None, arrival_px=None):
 ###### Rolling VWAP/TWAP 
 
 ####2) Smart -order routing
+
