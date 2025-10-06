@@ -1,4 +1,4 @@
-I am designing a synthetic simulation of market microstructure. 
+I am designing a market microstructure simulation. 
 
 The steps are as follows: 
 1) rolling VWAP/TWAP with partial fills
